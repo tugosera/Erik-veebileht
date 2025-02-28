@@ -17,7 +17,7 @@ h1 {
     margin-bottom: 0.5em;
 }
 
-h2, h3 {
+h2, h3, h4 {
     color: #005bb5;
     margin-top: 1em;
     margin-bottom: 0.5em;
@@ -29,6 +29,9 @@ h2 {
 
 h3 {
     font-size: 1.5em;
+}
+h4 {
+    font-size: 1.2em;
 }
 
 /* Изображения */
@@ -73,6 +76,16 @@ div {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+table {
+    padding: 20px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+td, th {
+
 }
 
 div p {

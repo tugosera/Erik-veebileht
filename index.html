@@ -44,5 +44,42 @@
     <p>Minimal Viable Product (minimaalselt elujõuline toode) on toote, teenuse või teenuse testversioon, millel on minimaalne funktsioonide kogum (mõnikord isegi üks), mis kannab lõpptarbijale väärtust.
         MVP loob hüpoteeside testimiseks ja ettekavatsetud toote elujõulisuse kontrollimiseks, kui väärtuslik ja nõutud see turul on.</p>
 </div>
+<div>
+    <h2>kuidas teha remote repo</h2>
+    <h4>Remote repo loomiseks ja ühendamiseks lokaalsega:</h4>
+    <p>1. Loo uus repo GitHubis/GitLabis/Bitbucketis (nt. "my-repo").</p>
+    <p>2. Loo või mine olemasolevasse lokaalsesse kataloogi:</p>
+    <table>
+        <tr>
+            <th>mkdir my-repo && cd my-repo</th>
+        </tr>
+    </table>
+    <p>3. Initsialiseeri Git lokaalselt:</p>
+    <table>
+        <tr>
+            <th>git init</th>
+        </tr>
+    </table>
+    <p>4. Lisa remote repo (asenda URL oma reaga):</p>
+    <table>
+        <tr>
+            <th>git remote add origin https://github.com/user/my-repo.git</th>
+        </tr>
+    </table>
+    <p>5. Lisa failid ja esimene commit:</p>
+    <table>
+        <tr>
+            <th>git add .
+                git commit -m "Initial commit"</th>
+        </tr>
+    </table>
+    <p>6. Pushi failid remote repo-sse:</p>
+    <table>
+        <tr>
+            <th>git push -u origin main</th>
+        </tr>
+    </table>
+
+</div>
 </body>
 </html>
